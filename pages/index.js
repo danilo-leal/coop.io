@@ -1,6 +1,6 @@
-import Logo from '../components/atoms/Logo';
 import Image from 'next/image';
-import DarkModeButton from '../components/atoms/DarkModeButton';
+import Logo from '../components/Logo';
+import DarkModeButton from '../components/DarkModeButton';
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
       </div>
       <div className="flex flex-col space-y-4 items-center pt-8 sm:pt-20">
         <Image
-          src="/static/hero-img.png"
+          src="/static/hero.png"
           alt="Screenshot of the Coop app in a gray background"
           className=""
           width={800}
