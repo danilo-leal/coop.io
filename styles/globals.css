@@ -4,6 +4,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
+@layer components {
+  .h1 {
+    @apply text-2xl font-bold text-gray-900 text-center dark:text-white;
+  }
+  .h2 {
+    @apply text-xl font-bold text-gray-900 dark:text-white;
+  }
+  .p {
+    @apply text-gray-700 text-center max-w-lg dark:text-gray-400;
+  }
+  .btn-primary {
+    @apply p-4 bg-blue-500 rounded-md shadow-md flex items-center space-x-2 hover:bg-blue-600 hover:shadow-lg transition-all justify-center sm:w-2/5;
+  }
+}
+
 html,
 body {
   padding: 0;
