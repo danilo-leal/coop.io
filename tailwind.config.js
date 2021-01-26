@@ -13,6 +13,10 @@ module.exports = {
         blackish: `#171717`,
         blackish2: `#262626`,
       },
+      backgroundImage: (theme) => ({
+        'hero-light': "url('/public/static/light-full-app.png')",
+        'hero-dark': "url('/public//static/dark-full-app.png')",
+      }),
     },
   },
   variants: {

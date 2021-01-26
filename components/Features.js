@@ -19,19 +19,22 @@ export default function Features() {
         index="1"
         title="Sem surpresas."
         description="Uma visão holística sobre sua situação financeira, relativa ao seu orçamento."
-        img="/static/app1.png"
+        imgDark="/static/dark-app-one.png"
+        imgLight="/static/light-app-one.png"
       />
       <FeaturesGrid
         index="2"
         title="Sem bagunça."
         description="Categorize seus gastos, organizando o que e quanto você gasta em cada item."
-        img="/static/app2.png"
+        imgDark="/static/dark-app-two.png"
+        imgLight="/static/light-app-two.png"
       />
       <FeaturesGrid
         index="3"
         title="Do seu jeito."
         description="Componha como você quiser sua estrutura de gastos."
-        img="/static/app3.png"
+        imgDark="/static/dark-app-three.png"
+        imgLight="/static/light-app-three.png"
       />
     </div>
   );

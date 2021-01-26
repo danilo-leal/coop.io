@@ -17,6 +17,9 @@
   .btn-primary {
     @apply p-4 bg-blue-500 rounded-md shadow-md flex items-center space-x-2 hover:bg-blue-600 hover:shadow-lg transition-all justify-center sm:w-2/5;
   }
+  .default-container {
+    @apply max-w-3xl m-auto;
+  }
 }
 
 html,
