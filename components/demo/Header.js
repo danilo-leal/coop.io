@@ -15,7 +15,10 @@ export default function Header() {
           <div className="w-1/5 h-full bg-green-500"></div>
         </div>
         <p className="text-gray-500">
-          Tá tudo bem por enquanto. Estão sobrando R$1.010,00.
+          Tá tudo bem por enquanto. Estão sobrando
+          <span className="ml-1.5 text-blue-500 font-semibold">
+            R$1.010,00.
+          </span>
         </p>
       </div>
     </div>
