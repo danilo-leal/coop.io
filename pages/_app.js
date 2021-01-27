@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>coop</title>
         <meta property="og:title" name="coop" content="financial" key="title" />
-        <link rel="shortcut icon" href="/favicon.svg" />
+        <link rel="shortcut icon" href="/favicon.png" />
       </Head>
       <DefaultSeo {...SEO} />
       <body className="bg-white dark:bg-blackish">
