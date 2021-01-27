@@ -3,6 +3,7 @@ import AppBar from '../components/demo/AppBar';
 import EarningsEntry from '../components/demo/EarningsEntry';
 import Header from '../components/demo/Header';
 import Fab from '../components/demo/Fab';
+import data from '../components/demo/data';
 
 export default function Demo() {
   return (
@@ -15,11 +16,15 @@ export default function Demo() {
         </div>
         <div className="w-full h-1 bg-gray-100 dark:bg-blackish2"></div>
         <div className="flex flex-col space-y-8 sm:px-8 px-3 sm:pt-4 pt-3 sm:pb-8 pb-4 divide-solid divide-y-2 divide-gray-100 dark:divide-blackish2">
-          <EarningsEntry />
-          <EarningsEntry />
-          <EarningsEntry />
-          <EarningsEntry />
-          <EarningsEntry />
+          {data.map((expenses) => (
+            <EarningsEntry
+              key={expenses.name}
+              name={expenses.name}
+              category={expenses.category}
+              expectation={expenses.expectation}
+              reality={expenses.reality}
+            />
+          ))}
         </div>
       </div>
     </div>

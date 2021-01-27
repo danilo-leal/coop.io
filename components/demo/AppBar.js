@@ -7,7 +7,6 @@ export default function AppBar() {
   return (
     <div className="flex justify-between">
       <IconLogo />
-
       <div className="flex space-x-2 items-center">
         <div className="p-3 hover:bg-gray-100 dark:hover:bg-blackish2 transition-all rounded-full">
           <svg

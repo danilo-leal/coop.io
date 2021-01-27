@@ -1,12 +1,14 @@
 import React from 'react';
+import data from './data';
 
-export default function EarningsEntry() {
+export default function EarningsEntry(props) {
+  const { name, category, reality, expectation } = props;
   return (
     <div className="flex flex-col space-y-4 pt-4">
       <div className="flex justify-between">
         <div className="flex space-x-3 items-center">
           <div className="w-2 h-2 rounded-full bg-blue-500"></div>
-          <p className="text-sm text-blue-500 font-semibold">Estrutural (1)</p>
+          <p className="text-sm text-blue-500 font-semibold">{category}</p>
         </div>
         <div className="cursor-pointer p-3 hover:bg-gray-100 dark:hover:bg-blackish2 transition-all rounded-full">
           <svg
@@ -26,7 +28,7 @@ export default function EarningsEntry() {
         </div>
       </div>
       <div className="flex space-y-4 flex-col">
-        <p className="text-gray-900 dark:text-white text-lg">Aluguel</p>
+        <p className="text-gray-900 dark:text-white text-lg">{name}</p>
         <div className="flex justify-between">
           <div className="flex sm:space-x-16 space-x-8">
             <div>
@@ -34,13 +36,13 @@ export default function EarningsEntry() {
                 Espero gastar
               </p>
               <p className="text-gray-900 dark:text-white sm:text-lg font-semibold">
-                R$ 1.200,00
+                R${expectation}
               </p>
             </div>
             <div>
               <p className="text-sm text-gray-500 dark:text-gray-400">Gastei</p>
               <p className="text-gray-900 dark:text-white sm:text-lg font-semibold">
-                R$ 1.200,00
+                R${reality}
               </p>
             </div>
           </div>
