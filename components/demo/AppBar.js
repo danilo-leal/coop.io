@@ -1,11 +1,12 @@
 import React from 'react';
 import Logo from '../Logo';
 import DarkModeButton from '../DarkModeButton';
+import IconLogo from '../IconLogo';
 
 export default function AppBar() {
   return (
     <div className="flex justify-between">
-      <Logo />
+      <IconLogo />
 
       <div className="flex space-x-2 items-center">
         <div className="p-3 hover:bg-gray-100 dark:hover:bg-blackish2 transition-all rounded-full">
