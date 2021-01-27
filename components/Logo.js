@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Logo() {
   return (
-    <div className="flex space-x-2 items-center p-2">
+    <a href="/" className="flex space-x-2 items-center">
       <svg
         className="w-5 h-5 stroke-current text-blue-500"
         fill="none"
@@ -20,6 +20,6 @@ export default function Logo() {
       <p className="font-bold text-xl text-gray-900 leading-none dark:text-white">
         Coop
       </p>
-    </div>
+    </a>
   );
 }
