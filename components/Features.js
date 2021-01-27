@@ -15,27 +15,23 @@ export default function Features() {
           dono da sua realidade financeira.
         </p>
       </div>
-      <FeaturesGrid
-        index="1"
-        title="Sem surpresas."
-        description="Uma visão holística sobre sua situação financeira, relativa ao seu orçamento."
-        imgDark="/static/dark-app-one.png"
-        imgLight="/static/light-app-one.png"
-      />
-      <FeaturesGrid
-        index="2"
-        title="Sem bagunça."
-        description="Categorize seus gastos, organizando o que e quanto você gasta em cada item."
-        imgDark="/static/dark-app-two.png"
-        imgLight="/static/light-app-two.png"
-      />
-      <FeaturesGrid
-        index="3"
-        title="Do seu jeito."
-        description="Componha como você quiser sua estrutura de gastos."
-        imgDark="/static/dark-app-three.png"
-        imgLight="/static/light-app-three.png"
-      />
+      <div className="grid sm:grid-cols-3 sm:gap-4 gap-12">
+        <FeaturesGrid
+          index="1"
+          title="Sem surpresas."
+          description="Uma visão holística sobre sua situação financeira, relativa ao seu orçamento."
+        />
+        <FeaturesGrid
+          index="2"
+          title="Sem bagunça."
+          description="Categorize seus gastos, organizando o que e quanto você gasta em cada item."
+        />
+        <FeaturesGrid
+          index="3"
+          title="Do seu jeito."
+          description="Componha como você quiser sua estrutura de gastos."
+        />
+      </div>
     </div>
   );
 }

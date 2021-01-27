@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function GPlayButton() {
   return (
-    <div className="rounded-md p-2 hover:bg-gray-100 transition-all w-full flex flex-col items-center dark:hover:bg-blackish2">
+    <div className="rounded-md p-2 hover:bg-gray-100 transition-all w-full sm:w-2/5 flex flex-col items-center dark:hover:bg-blackish2">
       <a href="" className="flex space-x-2 items-center">
         <svg
           className="w-3 h-3 fill-current text-gray-400"
