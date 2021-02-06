@@ -7,7 +7,7 @@ export default function FeaturesGrid(props) {
   return (
     <div className="flex flex-col sm:flex-row sm:gap-1 gap-4 items-center">
       <div className="flex flex-col space-y-4 flex-grow">
-        <div>
+        <div className="flex flex-col space-y-2">
           <h2 className="h2">{props.title}</h2>
           <p className="p text-left sm:w-4/5">{props.description}</p>
         </div>

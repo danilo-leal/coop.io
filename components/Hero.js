@@ -16,7 +16,7 @@ export default function Hero() {
             Simplesmente, organize seu dinheiro. <br />
             Sem mais surpresas.
           </h1>
-          <p className="p">
+          <p className="p-max">
             Coop te ajuda a gerir sua realidade financeira. Você registra quanto
             de fato gastou em algo em comparação ao que esperava gastar.
           </p>

@@ -3,12 +3,34 @@ import data from './data';
 
 export default function EarningsEntry(props) {
   const { name, category, reality, expectation } = props;
+
+  const colors = {
+    default: {
+      bg: 'bg-gray-900',
+      text: 'text-gray-900',
+    },
+    Estrutural: {
+      bg: 'bg-blue-500',
+      text: 'text-blue-500',
+    },
+    Investimento: {
+      bg: 'bg-red-500',
+      text: 'text-red-500',
+    },
+    Viagens: {
+      bg: 'bg-green-500',
+      text: 'text-green-500',
+    },
+  };
+
   return (
     <div className="flex flex-col space-y-4 pt-4">
       <div className="flex justify-between">
         <div className="flex space-x-3 items-center">
-          <div className="w-2 h-2 rounded-full bg-blue-500"></div>
-          <p className="text-sm text-blue-500 font-semibold">{category}</p>
+          <div className={`w-2 h-2 rounded-full ${colors[category.bg]}`}></div>
+          <p className={`text-sm font-semibold ${colors[category.text]}`}>
+            {category}
+          </p>
         </div>
         <div className="cursor-pointer p-3 hover:bg-gray-100 dark:hover:bg-blackish2 transition-all rounded-full">
           <svg

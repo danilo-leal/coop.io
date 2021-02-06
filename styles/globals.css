@@ -12,6 +12,9 @@
     @apply text-xl font-bold text-gray-900 dark:text-white;
   }
   .p {
+    @apply text-gray-700 text-center dark:text-gray-400;
+  }
+  .p-max {
     @apply text-gray-700 text-center max-w-lg dark:text-gray-400;
   }
   .btn-primary {

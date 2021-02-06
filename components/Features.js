@@ -8,14 +8,14 @@ export default function Features() {
         <p className="uppercase tracking-wide text-sm text-blue-500 font-semibold mb-2">
           Propósito
         </p>
-        <p className="p text-left">
+        <p className="p-max text-left">
           Criamos o Coop porque acreditamos que prosperidade e controle
           financeiro é você saber exatamente quanto (e porque) sobrou o que
           sobrou no fim do mês. É um exercício de auto-organização que te faz
           dono da sua realidade financeira.
         </p>
       </div>
-      <div className="grid sm:grid-cols-3 sm:gap-4 gap-12">
+      <div className="grid sm:grid-cols-3 sm:gap-4 gap-12 items-start">
         <FeaturesGrid
           index="1"
           title="Sem surpresas."

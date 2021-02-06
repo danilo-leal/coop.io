@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function GPlayButton() {
   return (
-    <div className="rounded-md p-2 hover:bg-gray-100 transition-all w-full sm:w-2/5 flex flex-col items-center dark:hover:bg-blackish2">
+    <div className="rounded-full p-2 hover:bg-gray-100 transition-all w-full sm:w-2/5 flex flex-col items-center dark:hover:bg-blackish2">
       <Link href="">
         <a className="flex space-x-2 items-center">
           <svg

@@ -4,7 +4,6 @@ export default [
     expectation: '500,00',
     reality: '650,20',
     category: 'Estrutural',
-    color: 'Blue',
   },
   {
     name: 'Condominio',
@@ -18,34 +17,29 @@ export default [
     expectation: '500,00',
     reality: '650,20',
     category: 'Estrutural',
-    color: 'Blue',
   },
   {
     name: 'Gás',
     expectation: '500,00',
     reality: '650,20',
     category: 'Estrutural',
-    color: 'Blue',
   },
   {
     name: 'Warren',
     expectation: '500,00',
     reality: '650,20',
     category: 'Investimento',
-    color: 'Yellow',
   },
   {
     name: 'Praia',
     expectation: '500,00',
     reality: '650,20',
     category: 'Viagens',
-    color: 'Red',
   },
   {
     name: 'Sitio',
     expectation: '500,00',
     reality: '650,20',
     category: 'Viagens',
-    color: 'Red',
   },
 ];

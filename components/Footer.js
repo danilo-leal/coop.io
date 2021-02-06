@@ -4,20 +4,17 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <div className="large-container p-4 sm:py-16 py-8 flex sm:justify-between flex-col sm:flex-row sm:items-center items-start space-y-2 sm:space-y-0">
+    <div className="large-container sm:py-16 py-8 flex sm:justify-between flex-col sm:flex-row sm:items-center items-start space-y-2 sm:space-y-0">
       <div className="flex sm:space-x-8 sm:items-center items-start flex-col sm:flex-row sm:space-y-0 space-y-4">
         <Logo />
         <Link href="">
-          <a className="text-gray-500 hover:text-blue-500 hover:font-semibold pl-2 sm:pl-0">
+          <a className="text-gray-500 hover:text-blue-500 hover:font-semibold pl-2 sm:pl-0 transition-all">
             Começar
           </a>
         </Link>
-        <Link href="">
-          <a
-            href=""
-            className="text-gray-500 hover:text-blue-500 hover:font-semibold pl-2 sm:pl-0"
-          >
-            Change-log
+        <Link href="/change-log">
+          <a className="text-gray-500 hover:text-blue-500 hover:font-semibold pl-2 sm:pl-0  transition-all">
+            Changelog
           </a>
         </Link>
       </div>

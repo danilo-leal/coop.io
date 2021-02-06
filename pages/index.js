@@ -11,7 +11,9 @@ export default function Home() {
           <Features />
         </div>
       </div>
-      <Footer />
+      <div className="px-4">
+        <Footer />
+      </div>
     </div>
   );
 }
