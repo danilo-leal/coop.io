@@ -27,8 +27,8 @@ export default function EarningsEntry(props) {
     <div className="flex flex-col space-y-4 pt-4">
       <div className="flex justify-between">
         <div className="flex space-x-3 items-center">
-          <div className={`w-2 h-2 rounded-full ${colors[category.bg]}`}></div>
-          <p className={`text-sm font-semibold ${colors[category.text]}`}>
+          <div className={`w-2 h-2 rounded-full ${colors[category].bg}`}></div>
+          <p className={`text-sm font-semibold ${colors[category].text}`}>
             {category}
           </p>
         </div>
